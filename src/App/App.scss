@@ -1,0 +1,45 @@
+@import "../Sass/var";
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap");
+
+.dark-theme {
+  --bodyBg: #{$veryDarkBlue};
+  --appBody: #{$veryDarkDesaturatedBlue};
+  --noteColor: #{$lightgrayishblue};
+  // --noteColorhover: #{$darkGrayishBlue};
+  --borderColor: #{$veryDarkGrayishBlueHover};
+  --buttonColor: #{$veryDarkGrayishBlueHover};
+  --checkBorder: #{$veryDarkGrayishBlue};
+  --buttonHover: #{$lightgrayishblue};
+  --filterLinkColor: #{$veryDarkGrayishBlueHover};
+  // --remainingParaColor: #{$veryDarkGrayishBlueHover};
+  --appBackgroundImg: #{$darkThemeBackgroundImg};
+}
+.light-theme {
+  --bodyBg: #{$veryLightGray};
+  --appBody: #{$veryLightGray};
+  --noteColor: #{$veryDarkGrayishBlueLight};
+  // --noteColorhover: #{$lightGrayishBlueLight};
+  --borderColor: #{$lightGrayishBlueLight};
+  --checkBorder: #{$lightGrayishBlueLight};
+  --buttonColor: #{$darkGrayishBlueLight};
+  --buttonHover: #{$veryDarkGrayishBlueLight};
+  --filterLinkColor: #{$darkGrayishBlueLight};
+  --appBackgroundImg: #{$lightThemeBackgroundImg};
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: $darkGrayishBlue;
+}

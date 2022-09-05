@@ -1,0 +1,48 @@
+body {
+  color: rgba(102, 51, 153, 0);
+}
+
+@media (max-width: 576px) {
+  .m-wrapper {
+    width: 80%;
+    margin: auto;
+  }
+}
+@media (max-width: 375px) {
+  main {
+    background: var(--bodyBg) url("../../../images/bg-mobile-dark.jpg") no-repeat;
+  }
+  .m-wrapper {
+    width: 85%;
+    margin: auto;
+  }
+  .main-section {
+    height: 38.5rem;
+  }
+  .main-section .list {
+    height: 33.5rem;
+  }
+  .menu-bar {
+    height: 5.5rem;
+  }
+  .todo-item {
+    height: 5.5rem;
+  }
+  .links ul {
+    list-style: none;
+    gap: 2.6rem;
+    font-size: 1.2rem;
+    color: var(--filterLinkColor);
+    padding-left: 0;
+    text-transform: capitalize;
+    font-weight: 700;
+    height: 5rem;
+  }
+  .links ul li {
+    cursor: pointer;
+    transition: all 0.15s linear;
+  }
+  .links ul li:hover {
+    color: var(--buttonHover) !important;
+  }
+}/*# sourceMappingURL=Main_mobile.css.map */

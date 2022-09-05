@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap");
+body {
+  color: rgba(102, 51, 153, 0);
+}
+
+.dark-theme {
+  --bodyBg: hsl(235deg, 21%, 11%);
+  --appBody: hsl(235deg, 24%, 19%);
+  --noteColor: hsl(234deg, 39%, 85%);
+  --borderColor: hsl(233deg, 14%, 35%);
+  --buttonColor: hsl(233deg, 14%, 35%);
+  --checkBorder: hsl(237deg, 14%, 26%);
+  --buttonHover: hsl(234deg, 39%, 85%);
+  --filterLinkColor: hsl(233deg, 14%, 35%);
+  --appBackgroundImg: ../../../images/bg-desktop-dark.jpg;
+}
+
+.light-theme {
+  --bodyBg: hsl(0deg, 0%, 98%);
+  --appBody: hsl(0deg, 0%, 98%);
+  --noteColor: hsl(235deg, 19%, 35%);
+  --borderColor: hsl(233deg, 11%, 84%);
+  --checkBorder: hsl(233deg, 11%, 84%);
+  --buttonColor: hsl(236deg, 9%, 61%);
+  --buttonHover: hsl(235deg, 19%, 35%);
+  --filterLinkColor: hsl(236deg, 9%, 61%);
+  --appBackgroundImg: ../../../images/bg-desktop-light.jpg;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: hsl(234deg, 11%, 52%);
+}/*# sourceMappingURL=App.css.map */

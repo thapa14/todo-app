@@ -1,0 +1,25 @@
+body {
+  color: rgba(102, 51, 153, 0);
+}
+
+.temp {
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 50%;
+  background: var(--checkBorder);
+  display: grid;
+  place-items: center;
+}
+
+.todo-item:hover .temp {
+  background: linear-gradient(to right, hsl(192deg, 100%, 67%), hsl(280deg, 87%, 65%));
+  opacity: 0.7;
+}
+
+.checkbox-container {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: var(--appBody) !important;
+  cursor: pointer;
+}/*# sourceMappingURL=checkButton.css.map */

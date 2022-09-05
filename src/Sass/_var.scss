@@ -1,0 +1,34 @@
+// primary- colors
+$brightBlue: hsl(220, 98%, 61%);
+$checkBackground: linear-gradient(
+  to right,
+  hsl(192, 100%, 67%),
+  hsl(280, 87%, 65%)
+);
+$transparentColor: rgba(255, 255, 255, 0);
+
+// Dark Theme
+
+$veryDarkBlue: hsl(235, 21%, 11%);
+$veryDarkDesaturatedBlue: hsl(235, 24%, 19%);
+$lightgrayishblue: hsl(234, 39%, 85%);
+$lightGrayishBlueHover: hsl(236, 33%, 92%);
+$darkGrayishBlue: hsl(234, 11%, 52%);
+$veryDarkGrayishBlue: hsl(237, 14%, 26%);
+$veryDarkGrayishBlueHover: hsl(233, 14%, 35%);
+
+$darkThemeBackgroundImg: "../../../images/bg-desktop-dark.jpg";
+
+// light theme
+
+$veryLightGray: hsl(0, 0%, 98%);
+$veryLightGrayishBlue: hsl(236, 33%, 92%);
+$lightGrayishBlueLight: hsl(233, 11%, 84%);
+$darkGrayishBlueLight: hsl(236, 9%, 61%);
+$veryDarkGrayishBlueLight: hsl(235, 19%, 35%);
+
+$lightThemeBackgroundImg: "../../../images/bg-desktop-light.jpg";
+
+body {
+  color: rgba(102, 51, 153, 0);
+}

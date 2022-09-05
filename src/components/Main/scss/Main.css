@@ -1,0 +1,135 @@
+body {
+  color: rgba(102, 51, 153, 0);
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  background: var(--bodyBg) url("../../../images/bg-desktop-dark.jpg") no-repeat;
+  display: grid;
+  place-items: center;
+}
+
+.m-wrapper {
+  width: 45rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  gap: 2.4rem;
+}
+
+header h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 1.6rem;
+  cursor: pointer;
+}
+header img {
+  width: 2.4rem;
+  cursor: pointer;
+}
+
+.todo-app-body {
+  gap: 2rem;
+}
+.todo-app-body > :nth-child(1) {
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.4);
+}
+.todo-app-body > :nth-child(2) {
+  box-shadow: 0px 6px 22px 1px rgba(0, 0, 0, 0.3);
+}
+
+section {
+  border-radius: 0.5rem;
+  width: 100%;
+  background-color: var(--appBody);
+}
+section form {
+  width: 100%;
+  height: 5rem;
+}
+section form input[type=text] {
+  width: 75%;
+  padding: 0.6rem 0;
+  font-size: 1.6rem;
+  outline: none;
+  border: none;
+  color: var(--noteColor);
+  background-color: rgba(255, 255, 255, 0);
+}
+section form input[type=text]::-moz-placeholder {
+  color: hsl(234deg, 11%, 52%);
+}
+section form input[type=text]:-ms-input-placeholder {
+  color: hsl(234deg, 11%, 52%);
+}
+section form input[type=text]::placeholder {
+  color: hsl(234deg, 11%, 52%);
+}
+
+form {
+  width: 100%;
+  height: 5rem;
+}
+form div {
+  width: 15%;
+  display: grid;
+  place-items: center;
+}
+form div input[type=submit] {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid var(--checkBorder);
+  outline: none;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  color: white;
+}
+
+.main-section {
+  height: 35rem;
+}
+.main-section .list {
+  height: 30rem;
+  overflow-x: hidden;
+}
+
+.menu-bar {
+  height: 5rem;
+  font-size: 1.3rem;
+  border-top: 1px solid var(--borderColor);
+}
+.menu-bar p {
+  color: var(--buttonColor);
+  letter-spacing: -0.4px;
+  cursor: default;
+}
+.menu-bar .links ul {
+  list-style: none;
+  gap: 1rem;
+  font-size: 1.3rem;
+  color: var(--filterLinkColor);
+  padding-left: 0;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+.menu-bar .links ul li {
+  cursor: pointer;
+  transition: all 0.15s linear;
+}
+.menu-bar .links ul li:hover {
+  color: var(--buttonHover) !important;
+}
+.menu-bar button {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  outline: none;
+  color: var(--buttonColor);
+  transition: all 0.15s linear;
+  text-transform: capitalize;
+  letter-spacing: -0.5px;
+  word-spacing: -0.5px;
+}
+.menu-bar button:hover {
+  color: var(--buttonHover);
+}/*# sourceMappingURL=Main.css.map */

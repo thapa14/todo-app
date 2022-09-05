@@ -1,0 +1,31 @@
+body {
+  color: rgba(102, 51, 153, 0);
+}
+
+.todo-item {
+  height: 5rem;
+  border-bottom: 1px solid var(--borderColor);
+}
+.todo-item .checkbox {
+  width: 15%;
+  height: 4rem;
+}
+.todo-item .todo-content {
+  width: 75%;
+  height: 4rem;
+  font-size: 1.6rem;
+  color: var(--noteColor);
+  position: relative;
+  margin-left: 5.6rem;
+  padding-top: 8px;
+  cursor: pointer;
+}
+.todo-item .delete-note {
+  width: 1.6rem;
+  margin: 0 1rem;
+  display: none;
+  cursor: pointer;
+}
+.todo-item:hover .delete-note {
+  display: block;
+}/*# sourceMappingURL=Todo.css.map */
