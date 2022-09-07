@@ -117,15 +117,16 @@ function Main() {
                 </button>
               </div>
             </section>
+
+            {innerWidth < 376 && (
+              <section>
+                <FilterLink
+                  setFilterStatus={setFilterStatus}
+                  filterStatus={filterStatus}
+                />
+              </section>
+            )}
           </div>
-          {innerWidth < 376 && (
-            <section>
-              <FilterLink
-                setFilterStatus={setFilterStatus}
-                filterStatus={filterStatus}
-              />
-            </section>
-          )}
         </div>
       </main>
     </>

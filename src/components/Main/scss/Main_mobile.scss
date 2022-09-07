@@ -6,6 +6,17 @@
     margin: auto;
   }
 }
+
+@media (max-width: 425px) {
+  .menu-bar {
+    font-size: 1.2rem;
+    .links {
+      ul {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
 @media (max-width: 375px) {
   main {
     background: var(--bodyBg) url("../../../images/bg-mobile-dark.jpg")
@@ -16,6 +27,15 @@
     margin: auto;
   }
 
+  .todo-app-body {
+    & > :nth-child(2) {
+      box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.1);
+    }
+    & > :nth-child(3) {
+      box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+      margin-bottom: 3rem;
+    }
+  }
   .main-section {
     height: 38.5rem;
     .list {
@@ -24,9 +44,13 @@
   }
   .menu-bar {
     height: 5.5rem;
+    font-size: 1.3rem;
   }
   .todo-item {
     height: 5.5rem;
+    .todo-content {
+      width: 73% !important;
+    }
   }
 
   .links {
